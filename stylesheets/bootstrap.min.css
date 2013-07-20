@@ -38,7 +38,7 @@ a:hover,a:focus{color:#005580;text-decoration:underline;}
 .img-circle{-webkit-border-radius:500px;-moz-border-radius:500px;border-radius:500px;}
 .row{margin-left:-20px;*zoom:1;}.row:before,.row:after{display:table;content:"";line-height:0;}
 .row:after{clear:both;}
-#placeholder{margin:250px auto 0 auto;}
+#placeholder{margin:150px auto 0 auto;}
 [class*="span"]{float:left;min-height:1px;margin-left:20px;}
 .container,.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:940px;}
 .span12{width:940px;}
@@ -133,7 +133,7 @@ a.text-success:hover,a.text-success:focus{color:#356635;}
 .text-center{text-align:center;}
 h1,h2,h3,h4,h5,h6{margin:10px 0;font-family:inherit;font-weight:bold;line-height:20px;color:inherit;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;line-height:1;color:#999999;}
 h1,h2,h3{line-height:40px;}
-h1{font-size:38.5px; text-align:center;}
+h1{font-size:38.5px; padding-left:80px;}
 h2{font-size:31.5px;}
 h3{font-size:24.5px;}
 h4{font-size:17.5px;}
