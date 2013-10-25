@@ -1,25 +1,234 @@
+
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Duke's Grocery - The Taste of East London in East DuPont - 1513 17th St NW, Washington, DC 20036</title>
+    <meta name="description" content="The Taste of East London in East DuPont - 1513 17th St NW, Washington, DC 20036" />
+    <meta name="og:type" content="Restaurant" />
+    <meta property="og:restaurant:street_address" content="1513 17th Street NW" />
+    <meta property="og:restaurant:locality" content="Washington" />
+    <meta property="og:restaurant:region" content="District of Columbia" />
+    <meta property="og:restaurant:postal_code" content="20036" />
+    <meta property="og:restaurant:country_name" content="United States" />
+    <meta property="og:restaurant:email" content="dukesgrocery@gmail.com" />
+    <meta property="og:restaurant:phone_number" content="+1-202-733-5623" />
+    <meta property="og:restaurant:website" content="http://www.dukesgrocery.com/" />
+    <meta property="og:image" content="http://www.dukesgrocery.com/images/logo.png" />
+    <script type="text/javascript" src="javascripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="javascripts/supersized.3.2.7.min.js"></script>
+    <script type="text/javascript">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Duke's Grocery" />
+	    jQuery(function($){
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/bootstrap.min.css">
+		    $.supersized({ /* review API settings */
 
-    <title>Duke's Grocery</title>
-  </head>
+			    // Functionality
+			    slideshow               :   1,			// Slideshow on/off
+			    autoplay				:	1,			// Slideshow starts playing automatically
+			    start_slide             :   0,			// Start slide (0 is random)
+			    stop_loop				:	0,			// Pauses slideshow on last slide
+			    random					: 	1,			// Randomize slide order (Ignores start slide)
+			    slide_interval          :   4000,		// Length between transitions
+			    transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+			    transition_speed		:	1300,		// Speed of transition
+			    new_window				:	1,			// Image links open in new window/tab
+			    pause_hover             :   0,			// Pause slideshow on hover
+			    keyboard_nav            :   0,			// Keyboard navigation on/off
+			    performance				:	1,			// 0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+			    image_protect			:	0,			// Disables image dragging and right click with Javascript
 
-  <body>
-	<div class="container">
-		<div class="row" id="placeholder">
-			<div class="span10"><img src=".\images\dukes-logo.png" title="Duke's Grocery Logo" alt="Duke's Grocery logo" /></div>
-			<div class="span10"><h1>Duke's Grocery is now open!</h1></div>
-			<div class="span10"><h3>Please visit our <a href="https://www.facebook.com/DukesGrocery">Facebook page</a> for current information.<br />
-			Website is coming shortly.<br />
-			1513 17th Street NW - Washington DC - 20036 - 202.733.5623</h3></div>
-		</div>
-	</div>
-  </body>
+			    // Size and Position
+			    min_width		        :   0,			// Min width allowed (in pixels)
+			    min_height		        :   0,			// Min height allowed (in pixels)
+			    vertical_center         :   1,			// Vertically center background
+			    horizontal_center       :   1,			// Horizontally center background
+			    fit_always				:	0,			// Image will never exceed browser width or height (Ignores min. dimensions)
+			    fit_portrait         	:   1,			// Portrait images will not exceed browser height
+			    fit_landscape			:   0,			// Landscape images will not exceed browser width
+
+			    // Components
+			    slide_links				:	false,	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+			    thumb_links				:	0,			// Individual thumb links for each slide
+			    thumbnail_navigation    :   0,			// Thumbnail navigation
+			    slides 					:  	[			// Slideshow Images
+												    { image : 'photos/01-sandwich.jpeg'},
+												    { image : 'photos/02-upstairs.jpeg'},
+												    { image : 'photos/03-drink.jpeg'},
+												    { image : 'photos/04-macncheese.jpeg'},
+												    { image : 'photos/05-split-sandwich.jpeg'}
+										    ],
+			    // Theme Options
+			    progress_bar			:	0,			// Timer for each slide
+			    mouse_scrub				:	0
+
+		    });
+	    });
+
+    </script>
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="left_column">
+	        <div class="clear">&nbsp;</div>
+	        <h1>Duke's Grocery</h1>
+        </div>
+        <div class="right_column">
+	        <div class="clear">&nbsp;</div>
+	        <div class="nav_circle">
+		        <div class="intro">A taste of East London<br />in East Dupont</div>
+		        <div class="menu">
+			        <a href="#" class="story">Duke's Grocery</a><br />
+			        <!--<a href="#" class="food">Menu</a>  /  <a href="#" class="wine">Drinks</a> <br /><!-- menu disabled for now-->
+                    <a href="#" class="events">Events</a><br />
+			        <!--<a href="#" class="gallery">Gallery</a><br />--> <!-- gallery disabled for now -->
+                    <a href="#" class="press">Press</a><br />
+			        <a href="#" class="contact">Contact</a>
+		        </div>
+	        </div>
+        </div>
+        <div class="overlays">
+	        <div class="content_panel story hide">
+		        <a href="#" class="close">Close</a>
+		        <p>The result of a couple guys who love good food and cold drinks, Duke's Grocery is a neighborhood pub and supper spot located in the Dupont Circle neighborhood of Washington, D.C. The idea is simple: create a fun spot that our friends (you!) can come in anytime and have a fulfilling meal, a tasty drink and and great time in an atmosphere that is unpretentious and laid back. Tuck in, drink up and enjoy!</p>
+                <p>A nod to the ubiquitous corner cafés, bodegas and curry joints of the East London neighborhoods of Shoreditch and Hoxton, our culinary inspiration is as diverse as these brilliantly working class parts of the English capital. East London's funky juxtaposition of classic greasy spoons, hole-in-the-wall ethnic spots and ultra sleek avant-garde restaurants has created a food scene that is truly unique.</p>
+                <p>We regularly update our chalkboard menu depending on what is seasonally available and fresh. From our sandwiches, curries and house made pastas to cocktails, craft beers and unique varietals, we work hard to keep the menus exciting while offering our guests a top-notch experience.</p>
+                <p>All dishes are scratch made in small batches in our cozy, open kitchen. We source from local purveyors including Potomac Farm Market and Lyon Bakery with an emphasis on sustainable ingredients. We take great care in preparing your meals to maintain high standards of both value and quality, all to ensure you are fully satisfied but not walking out of here broke.</p>
+                <p>We look forward to seeing you soon. Cheers!</p>
+            </div>
+            <div class="content_panel events hide">
+                <a href="#" class="close">Close</a>
+                <p>Duke's Grocery is available to host your holiday party, birthday celebration, after work happy hour or other special event. There is space for 20-50 guests on the Second Floor depending on the type of function and set up. To be clear, we do not charge rental fees. There is a minimum spend which varies based on desired time frame and day of week.</p>
+                <p>For more information, please send an email to DukesGrocery@gmail.com and be sure to include:
+                    <ol>
+                        <li>contact name, phone number and email address</li>
+                        <li>date and time</li>
+                        <li>number of guests expected</li>
+                        <li>brief description of event and name of host / company</li>
+                    </ol>
+                </p>
+                <p>Kindly note we do not currently allow any live entertainment or DJ's.</p>
+                <p>Open Bar Pricing (per person, per hour):<br />
+                Beers & Wines: $15<br />
+                Beers, Wines & Call Cocktails: $20<br />
+                Beers, Wines & Premium Cocktails: $25<br />
+                Full Open Bar: $30</p>
+            </div>
+            <div class="content_panel press hide">
+		        <a href="#" class="close">Close</a>
+                <p>Washington Post on September 10, 2013: <a href="http://www.washingtonpost.com/blogs/going-out-guide/wp/2013/09/10/an-early-tasting-of-sandwiches-from-dukes-grocery/">An early tasting of sandwiches from Duke’s Grocery</a></p>
+                <p>Urban Daddy on September 10, 2013: <a href="http://www.urbandaddy.com/dc/food/26450/Duke_s_Grocery_Dupont_s_New_Multipurpose_Sandwich_Shop_DC_DC_Restaurant">Put Up Your Duke’s - Dupont’s New Multipurpose Sandwich Shop</a></p>
+                <p>Prince of Petworth on September 10, 2013: <a href="http://www.popville.com/2013/09/dukes-grocery-opens-today-at-11am-in-dupont-have-a-look-inside/">Duke’s Grocery Opens Today at 11am in Dupont, Have a Look Inside</a></p>
+                <p>Washington City Paper on September 9, 2013: <a href="http://www.washingtoncitypaper.com/blogs/youngandhungry/2013/09/09/from-east-london-to-east-dupont-dukes-grocery-opens-tomorrow/">From East London to East Dupont: Duke’s Grocery Opens Tomorrow</a></p>
+                <p>Washignton Post on Septmeber 9, 2013: <a href="http://www.washingtonpost.com/blogs/going-out-guide/wp/2013/09/09/dukes-grocery-brings-east-london-to-east-dupont/">Updated: Duke’s Grocery brings East London to east Dupont</a></p>
+                <p>Thrillist: <a href="http://www.thrillist.com/eat/washington-dc/dupont-circle/dukes-grocery-these-monster-sandwiches-are-incredible">These monster sandwiches are incredible</a></p>
+                <p>For media inquiries, please call 202.733.5623 or email dukesgrocery@gmail.com. Thanks!</p>
+            </div>
+	        <div class="content_panel contact hide">
+		        <a href="#" class="close">Close</a>
+		        <h2 class="title">Duke's Grocery</h2>
+                <p><a rel="external" href="https://maps.google.com/maps?q=1513+17th+Street+Northwest,+Washington,+DC&hl=en&ll=38.910214,-77.038198&spn=0.002256,0.004128&sll=38.893596,-77.014576&sspn=0.57771,1.056747&oq=1513&hnear=1513+17th+St+NW,+Washington,+District+of+Columbia+20036&t=m&z=19">1513 17th Street NW<br />Washington, DC 20036</a><br />Cross Streets: P Street NW &amp; Churst Street NW<br /><br />Sunday: 11am &mdash; 1am<br />Monday &ndash; Thursday: 11am &ndash; 2am<br />Friday &ndash; Saturday: 11am &ndash; 3am<br />We are subject to closing slightly earlier on certain evenings.<br /><br />We seat guests on a first-come, first-served basis.</p>
+                <p>Visit <a href="http://https://www.facebook.com/DukesGrocery/">us on Facebook</a> for the latest menu and news.</p>
+                <p><span class="enlarge">dukesgrocery@gmail.com<br />202 733 5623</span></p>
+                <p>We are happy to provide off-site catering with advance notice. Please call or email with your request and we will do our best to accommodate you.<br />Thank you very much and have a great day!</p>
+            </div>>
+        </div>
+        <script type="text/javascript">
+        <!--
+
+	        setTimeout(function() {
+		        $('.nav_circle .intro').fadeOut( function () {
+			        $('.nav_circle .menu').fadeIn(1200);
+		        });
+	        }, 1000);
+
+	        $('.thumbs a').click(function(e) {
+		        e.preventDefault();
+		        var image = $(this).attr('href');
+		        $(this).parent().addClass('active').siblings().removeClass('active');
+		        $('.main_image img.lower').attr('src', image);
+		        $('.main_image img.upper').fadeOut('slow', function() { $(this).attr('src', image); $(this).show(); });
+		        update_counter();
+	        });
+
+	        $('.nav_circle .menu a').click(function(e) {
+		        e.preventDefault();
+		        if($(this).hasClass('gallery')) {
+			        api.playToggle();
+		        }
+		        $('.content_panel.' + $(this).attr('class')).fadeIn( function() { resize_columns(); } );
+		        $('.nav_circle').fadeTo('default', 0.3);
+		        $(this).blur();
+	        });
+
+	        $('.subnav a').click(function(e) {
+		        e.preventDefault();
+		        $('.content_panel').hide();
+		        $('.content_panel.' + $(this).attr('rel')).show( 0,  function() { resize_columns(); }  );
+		        $(this).blur();
+	        });
+
+	        $('.close').click(function(e) {
+		        e.preventDefault();
+		        api.playToggle();
+		        $(this).parent().fadeOut('default', function () {resize_columns( true);});
+		        $('.nav_circle').fadeTo('default', 1);
+		        $('.nav_circle').fadeTo('default', 1);
+	        });
+
+	        $('.overlays').click(function(e) {
+		        e.preventDefault();
+		        api.playToggle();
+		        $('.content_panel').fadeOut('default', function () {resize_columns( true);});
+		        $('.nav_circle').fadeTo('default', 1);
+		        $('.nav_circle').fadeTo('default', 1);
+	        });
+
+	        $('.content_panel').click(function(e) { e.stopPropagation() });
+
+	        $('.gallery_right').click(function(e) {
+		        e.preventDefault();
+		        var margin = parseInt($('.thumbs ul').css('margin-left').replace("px", ""));
+		        var thumb_width = $('.thumbs ul li').size() * $('.thumbs ul li').width();
+		        if(margin > (400 - thumb_width)) {
+			        $('.thumbs ul').animate({'margin-left' : (margin - 400)}, 400);
+		        }
+	        });
+
+	        $('.gallery_left').click(function(e) {
+		        e.preventDefault();
+		        var margin = parseInt($('.thumbs ul').css('margin-left').replace("px", ""));
+		        var thumb_width = $('.thumbs ul li').size() * $('.thumbs ul li').width();
+		        if(margin < 0) {
+			        $('.thumbs ul').animate({'margin-left' : (margin + 400)}, 400);
+		        } else {
+			        $('.thumbs ul').animate({'margin-left' : '0' }, 400);
+		        }
+	        });
+
+	        $('a[rel=external]').click(function(e){ e.preventDefault(); window.open($(this).attr('href'));});
+
+	        function update_counter() {
+		        var total = $('.thumbs ul li').size();
+		        var current = total - $('.thumbs ul li.active ~ li').size();
+		        $('.gallery_counter').text( current + '/' + total );
+	        }
+
+	        function resize_columns(force) {
+		        if(force) {
+			        var height = $(window).height();
+		        } else {
+			        var height = ($(window).height() > $(document).height() ? $(window).height() : $(document).height());
+		        }
+		        $('.left_column').css('height', height);
+		        $('.right_column').css('height', height);
+	        }
+
+	        $(window).resize(function() {resize_columns() });
+
+	        resize_columns();
+	        update_counter();
+        </script>
+    </body>
 </html>
