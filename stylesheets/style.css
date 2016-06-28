@@ -137,6 +137,8 @@ a:hover {
 	padding: 20px;
 	padding-top: 30px;
 	line-height: 130%;
+    overflow: auto;
+    max-height: 60em;
 }
 		
 .content_panel.contact {
