@@ -1023,6 +1023,11 @@ footer .social-footer li:hover a {
 	background: #f7f7f7;
 }
 
+.contact-bg {
+background-color:#e74c3c;
+color: #fff;
+}
+
 .blue {
 	color: #00a8ff;
 }
