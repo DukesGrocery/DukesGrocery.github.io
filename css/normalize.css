@@ -430,3 +430,10 @@ td,
 th {
   padding: 0;
 }
+
+@media (min-width: 768px)
+button-groups.less:35
+.navbar-nav > li {
+    float: left;
+    margin-left: 15px;
+}
